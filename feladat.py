@@ -1,4 +1,5 @@
 import os
+import math
 import time as tm
 os.system("cls")
 print("-"*25+"oOo"+"-"*25)
@@ -7,7 +8,7 @@ def zsom():
     while len(szmok) <= 5:
         szam = input("Adj egy szmot")
         try:
-            szmok.append(float(szam))
+            szmok.append(float(round(szam)))
         except ValueError:
             print("Hibás bemeneti adat")
     os.system("cls")
