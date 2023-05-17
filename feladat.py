@@ -39,7 +39,8 @@ if v_olv.upper() == "Y":
     olv_fi = open("jegyek","r")
     olvd_fi = olv_fi.read()
     print(olvd_fi)  
-    print("File írás elvégezve.")
+    print("File írás elvégezve.")ű
+    olv_fi.Close()
     tm.sleep(10)
     os.system("cls")
 else:
